@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width" , "initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vermilion Project | {% block titulo %}{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'registration/css/signin.css' %}">
+</head>
+<body>
+  <div class = "container login">
+    <form action="" method="post">{% csrf_token %}
+          <h1 class="mb-4 title text-center">Iniciar sesión</h1>
+          {% if form.non_field_errors %}
+            <p style="color:red">Usuario o contraseña incorrectos, prueba de nuevo.</p>
+          {% endif %}
+          <p>
+            <input type="text" name="username" autofocus maxlength="254" required
+              id="id_username" class="form-control casilla" placeholder="Nombre de usuario"/>
+          </p>
+          <p>
+            <input type="password" name="password" required
+              id="id_password" class="form-control" placeholder="Contraseña"/>
+          </p>
+          <p><input type="submit" class="btn btn-primary btn-block" value="Acceder"></p>
+        </form>
+    </div>
+</body>
+</html>

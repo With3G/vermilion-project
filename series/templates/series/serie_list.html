@@ -1,0 +1,30 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Series{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <aside class = "col-xs-2 col-md-3 col-xl-2 menu">
+        <a class = "selector {% if is_active == none %}activo{% endif%}" href = "{% url 'series' %}">Todas las Series</a>
+        {% for categoria in categorias %}
+            <a id = '{{ categoria.pk }}' class = "selector {% if is_active == categoria.pk %}activo{% endif%}" href = "{% url 'serie-categoria' categoria.pk %}">{{categoria.name}}</a>
+        {% endfor %}
+    </aside>
+    <article class = "col-xs-10 col-md-9 col-xl-10 listado">
+        <br>
+        <h2 class = "text-center">Series</h2>
+        <br>
+        <div class = "row lista-articulos">
+            {% for serie in series %}
+            <div class = "objeto_lista text-center col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                <a href="{% url 'serie' serie.pk %}"><img src = "{{serie.poster.url}}" class = "img-fluid list_covers">
+                <p class = "juego_title">{{serie.title}}</p></a>
+                <br>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>
+
+{% endblock %}

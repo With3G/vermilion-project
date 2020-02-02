@@ -1,0 +1,92 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}peliculas{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <article class="listado col-md-12">
+        <br>
+        <table class="container table table-dark table-bordered table-striped table-responsive">
+            <tr>
+                <td>
+                    <h4>{{pelicula.title}}</h4>
+                    <img src="{{pelicula.poster.url}}" style = "width:300px;">
+                </td>
+                <td colspan = "2">
+                <p class ="text-center">
+                <br><br>
+
+                </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">FICHA DE LA PELÍCULA</h5>
+                    <hr>
+                    <p>Título: {{pelicula.title}}</p>
+                    <p>Título Original: {{pelicula.original_title}}</p>
+                    <p>Género:</p>
+                    <ul>
+                    {% for generos in pelicula.genre.all %}
+                        <li>{{generos}}</li>
+                    {% endfor %}
+                    </ul>
+                    <p>Director: {{pelicula.director}}</p>
+                    <p>Guión: {{pelicula.guion}}</p>
+                    <p>Producción: {{pelicula.production}}</p>
+                    <p>País: {{pelicula.country}}</p>
+                    <p>Año: {{pelicula.year}}</p>
+                    <p>Música: {{pelicula.music}}</p>
+                    <ul>
+                        {% for reparto in pelicula.staff.all %}
+                            <li>{{reparto}}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+                <td width = "100%" colspan = "2">
+                    <h5 class = "text-center">SIPNOSIS</h5>
+                    <hr>
+                    <span>
+                        {{pelicula.plot | safe}}
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">DATOS TÉCNICOS</h5>
+                    <hr>
+                    <p>Duración: {{pelicula.duration}}</p>
+                    <p>Formato de archivo: {{pelicula.encoding}}</p>
+                    <p>Resolución de imagen: {{pelicula.resolution}}</p>
+                    <p>Peso: {{pelicula.peso}} (Mb)</p>
+                    <p>Idioma: {{pelicula.languages}}</p>
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pelicula.screen_one.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pelicula.screen_two.url}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">LINK DE DESCARGA</h5>
+                    <hr>
+                    <br><br>
+                    {% if pelicula.link %}
+                    <a href="{{pelicula.link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
+                    {% endif %}
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pelicula.screen_three.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pelicula.screen_four.url}}">
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </article>
+</section>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Videojuegos Retro{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <aside class = "col-xs-2 col-md-3 col-xl-2 menu">
+        <a class = "selector {% if is_active == none %}activo{% endif%}" href = "{% url 'retrojuegos' %}">Todos los títulos</a>
+        {% for consola in consolas %}
+            <a id = '{{ consola.pk }}' class = "selector {% if is_active == consola.pk %}activo{% endif%}" href = "{% url 'consola' consola.pk %}"><img class="listado-titulos" src="{{consola.console_banner.url}}" alt="{{consola.name}}"></a>
+        {% endfor %}
+    </aside>
+    <article class = "col-xs-10 col-md-9 col-xl-10 listado">
+        <br>
+        {% if consola_listada %}
+            {% for titulo in consola_listada %}
+            <div class="titulo-imagen">
+                <img  src="{{titulo.console_banner.url}}" alt="{{titulo.name}}">
+            </div>
+            {% endfor %}
+        {% else %}
+            <h2 class = "text-center">Todos los títulos</h2>
+        {% endif %}
+        <br>
+        <div class = "row lista-articulos">
+            {% for juego in videojuegos %}
+            <div class = "objeto_lista text-center col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                <a href="{% url 'juego-clasico' juego.pk %}"><img src = "{{juego.cover.url}}" class = "img-fluid list_covers">
+                <p class = "juego_title">{{juego.title}}</p></a>
+                <br>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>
+
+{% endblock %}

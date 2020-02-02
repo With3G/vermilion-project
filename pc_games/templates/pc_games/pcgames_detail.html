@@ -1,0 +1,86 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Videojuegos Retro{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <article class="listado col-md-12">
+        <br>
+        <table class="container table table-dark table-bordered table-striped table-responsive">
+            <tr>
+                <td>
+                    <h4>{{pcgames.title}}</h4>
+                    <img src="{{pcgames.poster.url}}" style = "width:300px;">
+                </td>
+                <td colspan = "2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">FICHA DEL JUEGO</h5>
+                    <hr>
+                    <p>Título: {{pcgames.title}}</p>
+                    <p>Número de Serie: {{pcgames.serial_number}}</p>
+                    <p>Género:</p>
+                    <ul>
+                    {% for generos in pcgames.genre.all %}
+                        <li>{{generos}}</li>
+                    {% endfor %}
+                    </ul>
+                    <p>Jugadores: {{pcgames.players}}</p>
+                    <p>Desarrollado por: {{pcgames.developer}}</p>
+                    <p>Publicado por: {{pcgames.produced}}</p>
+                    <p>Lanzamiento: {{pcgames.release}}</p> 
+                </td>
+                <td width = "100%" colspan = "2">
+                    <h5 class = "text-center">SIPNOSIS</h5>
+                    <hr>
+                    <span>
+                        {{pcgames.plot | safe}}
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">APARTADO TÉCNICO</h5>
+                    <hr>
+                    <p>Director: {{pcgames.director}}</p>
+                    <p>Guión: {{pcgames.guion}}</p>
+                    <p>Música: {{pcgames.music}}</p>
+                    <p>Idioma:</p>
+                    <ul>
+                        {% for idiomas in pcgames.language.all %}
+                            <li>{{idiomas}}</li>
+                        {% endfor %}
+                    </ul>
+                    <p>Tamaño: {{pcgames.size}}</p>
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pcgames.screen_one.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pcgames.screen_two.url}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">LINK DE DESCARGA</h5>
+                    <hr>
+                    <br><br>
+                    {% if pcgames.download_link %}
+                    <a href="{{pcgames.download_link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
+                    {% endif %}
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pcgames.screen_three.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{pcgames.screen_four.url}}">
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </article>
+</section>
+{% endblock %}

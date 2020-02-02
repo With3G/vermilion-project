@@ -1,0 +1,92 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width" , "initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vermilion Project | {% block titulo %}{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Vermilion Project</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'portada' %}">Portada <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'retrojuegos' %}">Videojuegos Retro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'juegos-pc' %}">Videojuegos PC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'series' %}">Series</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'peliculas' %}">Películas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'musica' %}">Música</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Libros</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Revistas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Manga</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Perfil</a>
+                </li>
+                {% if not request.user.is_authenticated %}
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'login' %}">
+                  Acceder
+                </a>
+              </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'logout' %}">
+                   Salir
+                  </a>
+                </li>
+              {% endif %}
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar algo" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 buscar" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <div class = "top"></div>
+    <main>
+        {% block contenido %}{% endblock %}
+    </main>
+    <footer class = "text-center">
+        <small>Desarrollado por Guillermo Granados Gómez</small>
+    </footer>
+    <script src="{% static 'core/vendor/jquery/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'core/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'core/js/popper.min.js' %}"></script>
+</body>
+
+</html>

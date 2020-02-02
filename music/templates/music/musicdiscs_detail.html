@@ -1,0 +1,81 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Discos de Música{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <article class="listado col-md-12">
+        <br>
+        <table class="container table table-dark table-bordered table-striped table-responsive">
+            <tr>
+                <td>
+                    <h4>{{musicdiscs.title}}</h4>
+                    <img src="{{musicdiscs.cover.url}}" style = "width:300px;">
+                </td>
+                <td colspan = "2">
+                <p class ="text-center">
+                <br><br>
+
+                </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">FICHA DEL ALBUM</h5>
+                    <hr>
+                    <p>Título: {{musicdiscs.title}}</p>
+                    <p>Autor: {{musicdiscs.author}}</p>
+                    <p>Sello: {{musicdiscs.produced}}</p>
+                    <p>Lanzamiento: {{musicdiscs.release}}</p>
+                    <p>Género:</p>
+                    <ul>
+                    {% for generos in musicdiscs.genre.all %}
+                        <li>{{generos}}</li>
+                    {% endfor %}
+                    </ul>
+                    <ul>
+                        {% for canciones in musicdiscs.songs.all %}
+                            <li>{{canciones}}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+                <td width = "100%" colspan = "2">
+                    <h5 class = "text-center">INFORMACIÓN</h5>
+                    <hr>
+                    <span>
+                        {{musicdiscs.info | safe}}
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">DATOS TÉCNICOS</h5>
+                    <hr>
+                    <p>Duración: {{musicdiscs.duration}}</p>
+                    <p>Número de discos: {{musicdiscs.numer_discs}}</p>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">LINK DE DESCARGA</h5>
+                    <hr>
+                    <br><br>
+                    {% if musicdiscs.download_link %}
+                    <a href="{{musicdiscs.download_link}}" class="btn btn-primary btn-lg btn-block">Descargar Album</a>
+                    {% endif %}
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </article>
+</section>
+{% endblock %}

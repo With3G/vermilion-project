@@ -1,0 +1,182 @@
+/*  
+Texto común: font-family: 'Fredoka One', cursive; 
+
+COLORES:
+- Blanco: #FDFFFC
+- Rojo: #EA2B1F
+- Rojo Oscuro: #A31621
+- Negro: #12100E
+- Negro Oscuro: #0D0A0B
+*/
+
+body {
+    margin: 0 auto;
+    font-family: 'Fredoka One', cursive;
+    background-color: #12100E;
+}
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+    color: #EA2B1F;
+    padding-left: 10px;
+    font-size: 45px;
+    text-shadow: 0px 5px 10px #0D0A0B;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #12100E;
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+nav {
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+    top: 90px;
+    background: #EA2B1F!important;
+    box-shadow: 0px 0px 30px #A31621;
+}
+
+footer {
+    background: #EA2B1F;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -5px 6px #A31621;
+}
+
+.form-inline .form-control {
+    background: #12100E;
+    border-color: #0D0A0B;
+    color: #FDFFFC;
+}
+
+.form-inline .form-control:focus {
+    background: #12100E;
+    border-color: #0D0A0B;
+    color: #FDFFFC;
+    box-shadow: 0px 0px 4px #0D0A0B;
+}
+
+[type=submit]:not(:disabled),
+button:not(:disabled).buscar,
+.btn-primary {
+    color: #EA2B1F;
+    border-color: #A31621;
+    background: #0D0A0B;
+}
+
+[type=submit]:not(:disabled):hover,
+button:not(:disabled).buscar:hover,
+.btn-primary:hover {
+    background: #A31621;
+    border-color: #A31621;
+    color: #0D0A0B;
+    box-shadow: 0px 0px 5px #0D0A0B;
+}
+
+.card {
+    background: #EA2B1F;
+    box-shadow: 0px 0px 10px #A31621;
+}
+
+.top {
+    height: 150px;
+}
+
+.post-img {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px;
+}
+
+.paginator {
+    background: #EA2B1F;
+    width: 170px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px #A31621;
+}
+
+a {
+    color: #0D0A0B;
+}
+
+a:hover {
+    color: #A31621;
+    text-decoration: none;
+}
+
+.menu {
+    background: rgb(248, 253, 246);
+    z-index: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+section {
+    margin-top: -4px;
+    display: flex;
+    min-height: 1135px;
+}
+
+.selector {
+    display: block;
+    padding: 10px;
+    z-index: 5;
+}
+
+.activo {
+    background: #A31621;
+    margin-left: 15px;
+    width: 300px;
+    border-radius: 2px;
+    box-shadow: -1px 0px 10px;
+}
+
+.activo:hover,
+.objeto_lista a:hover {
+    color: black!important;
+}
+
+.listado {
+    background: #A31621;
+}
+
+.portada-head {
+    margin-top: 25px;
+    color: #A31621;
+}
+
+.lista-articulos {
+    justify-content: center;
+}
+
+.list_covers {
+    box-shadow: 0px 0px 5px;
+}
+
+.juego_title {
+    font-size: 15px;
+}
+
+.titulo-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-imagen img{
+    height:80px;
+}
+
+.listado-titulos{
+    width: 60%;
+}

@@ -1,0 +1,104 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Videojuegos Retro{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <article class="listado col-md-12">
+        <br>
+        <table class="container table table-dark table-bordered table-striped table-responsive">
+            <tr>
+                <td>
+                    <h4>{{retrojuego.title}}</h4>
+                    <img src="{{retrojuego.cover.url}}" style = "width:300px;">
+                </td>
+                <td colspan = "2">
+                <p class ="text-center">
+                <br><br>
+                    <img class = "img-fluid" src="{{retrojuego.console.console_banner.url}}" style="height:150px;">
+                </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">FICHA DEL JUEGO</h5>
+                    <hr>
+                    <p>Título: {{retrojuego.title}}</p>
+                    <p>Título Original: {{retrojuego.original_title}}</p>
+                    <p>Número de Serie: {{retrojuego.serial_number}}</p>
+                    <p>Género:</p>
+                    <ul>
+                    {% for generos in retrojuego.genre.all %}
+                        <li>{{generos}}</li>
+                    {% endfor %}
+                    </ul>
+                    <p>Jugadores: {{retrojuego.players}}</p>
+                    <p>Desarrollado por: {{retrojuego.developer}}</p>
+                    <p>Publicado por: {{retrojuego.publisher}}</p>
+                    <p>Lanzamiento: {{retrojuego.date_released}}</p> 
+                </td>
+                <td width = "100%" colspan = "2">
+                    <h5 class = "text-center">SIPNOSIS</h5>
+                    <hr>
+                    <span>
+                        {{retrojuego.description | safe}}
+                    </span>
+                    {% if retrojuego.video %}
+                        <h5 class = "text-center">VIDEO</h5>
+                        <hr>
+                        <div class="text-center">
+                            <video class="video-fluid z-depth-1" style="width:80%;" controls>
+                                <source src="{{ retrojuego.video.url }}" type="video/mp4">
+                            </video>
+                        </div>
+                        <hr>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">DATOS TÉCNICOS</h5>
+                    <hr>
+                    <p>Región: {{retrojuego.region}}</p>
+                    <p>Soporte: {{retrojuego.support}}</p>
+                    {% if retrojuego.number_disk %}
+                        <p>Número de discos: {{retrojuego.number_disk}}</p>
+                    {% endif %}
+                    <p>Idioma:</p>
+                    <ul>
+                        {% for idiomas in retrojuego.languages.all %}
+                            <li>{{idiomas}}</li>
+                        {% endfor %}
+                    </ul>
+                    <p>Formato de archivo: {{retrojuego.extension}}</p>
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{retrojuego.screen_one.url}}" style="width:365px; height:275px;">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{retrojuego.screen_two.url}}" style="width:365px; height:275px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">LINK DE DESCARGA</h5>
+                    <hr>
+                    <img src = "{{retrojuego.console.console_image.url}}" class = "img-fluid">
+                    <br><br>
+                    {% if retrojuego.download_link %}
+                    <a href="{{retrojuego.download_link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
+                    {% endif %}
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{retrojuego.screen_three.url}}" style="width:365px; height:275px;">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{retrojuego.screen_four.url}}" style="width:365px; height:275px;">
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </article>
+</section>
+{% endblock %}

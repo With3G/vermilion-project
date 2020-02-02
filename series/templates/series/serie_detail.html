@@ -1,0 +1,92 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Series{% endblock %}
+
+
+{% block contenido %}
+<section>
+    <article class="listado col-md-12">
+        <br>
+        <table class="container table table-dark table-bordered table-striped table-responsive">
+            <tr>
+                <td>
+                    <h4>{{serie.title}}</h4>
+                    <img src="{{serie.poster.url}}" style = "width:300px;">
+                </td>
+                <td colspan = "2">
+                <p class ="text-center">
+                <br><br>
+
+                </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">FICHA DE LA SERIE</h5>
+                    <hr>
+                    <p>Título: {{serie.title}}</p>
+                    <p>Título Original: {{serie.original_title}}</p>
+                    <p>Género:</p>
+                    <ul>
+                    {% for generos in serie.genre.all %}
+                        <li>{{generos}}</li>
+                    {% endfor %}
+                    </ul>
+                    <p>Episodios: {{serie.episodes}}</p>
+                    <p>Temporadas: {{serie.seassons}}</p>
+                    <p>Creada por: {{serie.created_by}}</p>
+                    <p>Estudio: {{ serie.studio }}</p>
+                    <p>Primera Emisión: {{serie.first_emission}}</p>
+                    <p>Última Emisión: {{serie.last_emission}}</p>
+                    <ul>
+                        {% for reparto in serie.staff.all %}
+                            <li>{{reparto}}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+                <td width = "100%" colspan = "2">
+                    <h5 class = "text-center">SIPNOSIS</h5>
+                    <hr>
+                    <span>
+                        {{serie.plot | safe}}
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">DATOS TÉCNICOS</h5>
+                    <hr>
+                    <p>Duración: {{serie.duration}}</p>
+                    <p>Formato de archivo: {{serie.encoding}}</p>
+                    <p>Resolución de imagen: {{serie.resolution}}</p>
+                    <p>Peso: {{pelicula.peso}} (Mb)</p>
+                    <p>Idioma: {{serie.languages}}</p>
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{serie.screen_one.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{serie.screen_two.url}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="text-center">LINK DE DESCARGA</h5>
+                    <hr>
+                    <br><br>
+                    {% if serie.link %}
+                    <a href="{{serie.link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
+                    {% endif %}
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{serie.screen_three.url}}">
+                </td>
+                <td>
+                    <img class = "img-fluid" src="{{serie.screen_four.url}}">
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+    </article>
+</section>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block titulo %}Portada{% endblock %}
+
+
+{% block contenido %}
+
+<article class = "container text-center">
+<h2 class = "text-center portada-head">Portada</h2>
+<br>
+{% for entrada in portada_list %}
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{entrada.title}}</h5>
+    {% if entrada.image %}
+    <img src = "media/{{entrada.image}}" class = "img-fluid post-img">
+    {% endif %}
+    <p class="card-text">{{entrada.content | linebreaks }}</p>
+    {% if entrada.link %}
+    <a href="{{entrada.link}}" class="btn btn-primary">Ir a ficha</a>
+    {% endif %}
+    <p><small>{{entrada.author}} - {{entrada.created}}</small></p>
+  </div>
+</div>
+<br>
+{% endfor %}
+<br>
+{% if is_paginated %}
+    <div class="text-center paginator">
+        {% if page_obj.has_previous %}
+        <a href="?page={{page_obj.previous_page_number}}"> <i><</i> </a> {% endif %} Página {{page_obj.number }} de {{ page_obj.paginator.num_pages }} {% if page_obj.has_next %}
+        <a href="?page={{page_obj.next_page_number}}"> <i>></i> </a> {% endif %}
+    </div>
+{% endif %}
+<br>
+<br>
+</article>
+
+{% endblock %}
