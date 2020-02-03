@@ -17,3 +17,19 @@ class Portada(models.Model):
     
     def __str__(self):
         return self.title
+
+class Nube(models.Model):
+    titulo = models.CharField(max_length=150, verbose_name="Titulo")
+    categoria = models.CharField(max_length=150, verbose_name="Categoría")
+    nube = models.CharField(max_length=150, verbose_name="Nube")
+
+    fecha_creacion = models.DateField(verbose_name="Fecha de Subida", auto_now_add=True)
+    fecha_actualizacion = models.DateField(verbose_name="Resubido el", auto_now=True)
+
+    class Meta:
+        verbose_name = "Nube de datos"
+        verbose_name_plural = "Datos en la nube"
+        ordering = ["-nube"]
+
+    def __str__(self):
+        return self.titulo
