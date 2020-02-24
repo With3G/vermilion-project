@@ -16,7 +16,9 @@
                 <td colspan = "2">
                 <p class ="text-center">
                 <br><br>
-                    <img class = "img-fluid" src="{{retrojuego.console.console_banner.url}}" style="height:150px;">
+                    {% if retrojuego.logo %}
+                        <img class = "img-fluid" src="{{retrojuego.logo.url}}" style="height:150px;">
+                    {% endif %}
                 </p>
                 </td>
             </tr>
@@ -24,6 +26,7 @@
                 <td>
                     <h5 class="text-center">FICHA DEL JUEGO</h5>
                     <hr>
+                    <p>Plataforma: <img src="{{ retrojuego.console.console_banner.url }}" style="width: 150px;"></p>
                     <p>Título: {{retrojuego.title}}</p>
                     <p>Título Original: {{retrojuego.original_title}}</p>
                     <p>Número de Serie: {{retrojuego.serial_number}}</p>

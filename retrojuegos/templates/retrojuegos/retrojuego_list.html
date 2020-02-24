@@ -25,13 +25,31 @@
         <br>
         <div class = "row lista-articulos">
             {% for juego in videojuegos %}
-            <div class = "objeto_lista text-center col-xl-2 col-lg-3 col-md-4 col-xs-6">
-                <a href="{% url 'juego-clasico' juego.pk %}"><img src = "{{juego.cover.url}}" class = "img-fluid list_covers">
-                <p class = "juego_title">{{juego.title}}</p></a>
-                <br>
-            </div>
+                {% if juego.as_downloaded == True %}
+                    <div class = "objeto_lista text-center col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                        <a href="{% url 'juego-clasico' juego.pk %}"><img src = "{{juego.cover.url}}" class = "img-fluid list_covers">
+                        <p class = "juego_title">{{juego.title}}</p></a>
+                        <br>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
+        {% if is_active %}
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-primary btn-lg btn-block" href = "{% url 'gamelist' is_active %}" download="gamelist">Generar Gamelist</a>
+                </div>
+                <div class="col-md-6">
+                        <a class="btn btn-primary btn-lg btn-block" href = "{% url 'media' is_active %}" >Descargar Media</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        {% endif %}
     </article>
 </section>
 

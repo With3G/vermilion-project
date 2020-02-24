@@ -1,7 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.http import HttpResponse
 from .models import Console, Retrojuego
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
+
+import zipfile
 
 class RetrojuegoListView(ListView):
     model = Retrojuego
@@ -25,7 +28,7 @@ class RetrojuegoListView(ListView):
         try:
             context['is_active'] = self.kwargs['pk']
             context['consola_listada'] = Console.objects.filter(pk = self.kwargs['pk'])
-            print(context['consola_listada'])
+            print(context['is_active'])
         except:
             context['is_active'] = None
             context['consola_listada'] = None
@@ -34,10 +37,56 @@ class RetrojuegoListView(ListView):
 class RetrojuegoDetailView(DetailView):
     model = Retrojuego
 
-""" Arreglo provisional hasta que averigue como recuperar parametros mediante CBV
-def for_console(request, pk):
+# Generador de Gamelist.xml
+def gamelist_generator(request, pk):
         videogames = Retrojuego.objects.filter(console = pk)
         consoles = Console.objects.all()
         is_active = pk
-        return render(request, 'retrojuegos/retrojuego_list.html', {'videojuegos': videogames, 'consolas': consoles, 'is_active': is_active})
-"""
+
+        gamelist = open('./retrojuegos/templates/retrojuegos/gamelist.xml', 'w')
+
+        gamelist.write('<?xml version="1.0" encoding="utf-8"?>\n')
+        gamelist.write('<gameList>\n')
+
+        for games in videogames:
+            gamelist.write('    <game>\n')
+            gamelist.write('        <path>./' + games.namefile + '</path>\n')
+            gamelist.write('        <name>' + games.title + '</name>\n')
+            description = games.description.replace('<p>', '')
+            gamelist.write('        <desc>' + description.replace('</p>', '') + '</desc>\n')
+            gamelist.write('        <image>./covers/' + games.cover.name.replace('retrogames/covers/', '') + '</image>\n')
+            gamelist.write('        <video>./videosnaps/' + games.video.name.replace('retrogames/videosnaps/', '') + '</video>\n')
+            gamelist.write('        <marquee>./logo/' + games.logo.name.replace('retrogames/logo/', '') + '</marquee>\n')
+            gamelist.write('        <thumbnail>./logo/' + games.logo.name.replace('retrogames/logo/', '') + '</thumbnail>\n')
+            gamelist.write('        <rating>0</rating>\n')
+            gamelist.write('        <releasedate>' + str(games.date_released).replace('-','') + 'T000000</releasedate>\n')
+            gamelist.write('        <developer>' + games.developer.name + '</developer>\n')
+            gamelist.write('        <publisher>' + games.publisher.name + '</publisher>\n')
+            for games_genre in games.genre.all():
+                genre = str(games_genre)
+            gamelist.write('        <genre>' + genre + '</genre>\n')
+            gamelist.write('        <players>' + games.players + '</players>\n')
+            gamelist.write('        <playcount>0</playcount>\n')
+            gamelist.write('        <lastplayed>20200221T115107</lastplayed>\n')
+            gamelist.write('    </game>\n')
+        gamelist.write('</gameList>')
+        gamelist.close()
+
+        return HttpResponse(open('./retrojuegos/templates/retrojuegos/gamelist.xml').read(), content_type='text/xml')
+
+# Esta vista genera un archivo zip, tarda un poco en crearlo.
+def media_generator(request, pk):
+    videogames = Retrojuego.objects.filter(console = pk)
+    consoles = Console.objects.all()
+    is_active = pk
+
+    covers = zipfile.ZipFile('./media/retrogames/zip/media.zip', 'w')
+    for games in videogames:
+        covers.write('./media/{}'.format(games.cover.name), compress_type=zipfile.ZIP_DEFLATED)
+        covers.write('./media/{}'.format(games.video.name), compress_type=zipfile.ZIP_DEFLATED)
+        covers.write('./media/{}'.format(games.logo.name), compress_type=zipfile.ZIP_DEFLATED)
+
+    covers.write('./leeme.txt', compress_type=zipfile.ZIP_DEFLATED)
+    covers.close()
+
+    return redirect('/media/retrogames/zip/media.zip')

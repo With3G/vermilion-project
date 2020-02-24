@@ -1,0 +1,2 @@
+- Descomprime las carpetas covers, logos y videosnaps dentro del romset.
+- Recuerda descargar también el gamelist.xml y añadirlo al romset.

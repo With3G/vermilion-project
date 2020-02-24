@@ -63,6 +63,7 @@ class Retrojuego(models.Model):
     publisher = models.ForeignKey(Produced, on_delete = models.CASCADE, verbose_name = 'Productora')
     date_released = models.DateField(verbose_name = 'Fecha de Publicación')
     cover = models.ImageField(verbose_name = 'Carátula', upload_to = 'retrogames/covers')
+    logo = models.ImageField(verbose_name = 'Logotipo', upload_to = 'retrogames/logo', blank = True)
 
     # Game description:
     description = RichTextField(verbose_name = "Descripción")
@@ -71,6 +72,7 @@ class Retrojuego(models.Model):
     video = models.FileField(verbose_name = 'Video', upload_to = 'retrogames/videosnaps', blank = True)
 
     # Specifications:
+    namefile = models.CharField(verbose_name = 'Nombre del archivo ejecutable', max_length = 150)
     region = models.CharField(verbose_name = 'Región', max_length = 10, choices = REGION_ZONE, blank = True) 
     support = models.CharField(verbose_name = 'Soporte', max_length = 10, choices = SUPPORTS)
     number_disk = models.CharField(verbose_name = 'Discos', max_length = 10, choices = DISCS, blank = True)
