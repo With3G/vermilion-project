@@ -54,36 +54,36 @@ class Retrojuego(models.Model):
     console = models.ForeignKey(Console, verbose_name = 'Sistema', on_delete = models.CASCADE)
 
     # Game Identification:
-    title = models.CharField(verbose_name = 'Título', max_length = 200)
-    original_title = models.CharField(verbose_name = 'Título Original', max_length = 200)
-    serial_number = models.CharField(verbose_name = 'Número de Serie', max_length = 30)
-    genre = models.ManyToManyField(Genre, verbose_name = 'Género')
+    title = models.CharField(verbose_name = 'Título', max_length = 200, blank=True)
+    original_title = models.CharField(verbose_name = 'Título Original', max_length = 200, blank=True)
+    serial_number = models.CharField(verbose_name = 'Número de Serie', max_length = 30, blank=True)
+    genre = models.ManyToManyField(Genre, verbose_name = 'Género', blank=True)
     players = models.CharField(verbose_name = 'Jugadores', max_length = 10, choices = PLAYERS)
-    developer = models.ForeignKey(Developer, on_delete = models.CASCADE, verbose_name = 'Desarrollador')
-    publisher = models.ForeignKey(Produced, on_delete = models.CASCADE, verbose_name = 'Productora')
-    date_released = models.DateField(verbose_name = 'Fecha de Publicación')
-    cover = models.ImageField(verbose_name = 'Carátula', upload_to = 'retrogames/covers')
+    developer = models.ForeignKey(Developer, on_delete = models.CASCADE, verbose_name = 'Desarrollador', blank=True)
+    publisher = models.ForeignKey(Produced, on_delete = models.CASCADE, verbose_name = 'Productora', blank=True)
+    date_released = models.DateField(verbose_name = 'Fecha de Publicación', blank=True)
+    cover = models.ImageField(verbose_name = 'Carátula', upload_to = 'retrogames/covers', blank=True)
     logo = models.ImageField(verbose_name = 'Logotipo', upload_to = 'retrogames/logo', blank = True)
 
     # Game description:
-    description = RichTextField(verbose_name = "Descripción")
+    description = RichTextField(verbose_name = "Descripción", blank=True)
 
     # Video Snap
     video = models.FileField(verbose_name = 'Video', upload_to = 'retrogames/videosnaps', blank = True)
 
     # Specifications:
-    namefile = models.CharField(verbose_name = 'Nombre del archivo ejecutable', max_length = 150)
+    namefile = models.CharField(verbose_name = 'Nombre del archivo ejecutable', max_length = 150, blank=True)
     region = models.CharField(verbose_name = 'Región', max_length = 10, choices = REGION_ZONE, blank = True) 
-    support = models.CharField(verbose_name = 'Soporte', max_length = 10, choices = SUPPORTS)
+    support = models.CharField(verbose_name = 'Soporte', max_length = 10, choices = SUPPORTS, blank=True)
     number_disk = models.CharField(verbose_name = 'Discos', max_length = 10, choices = DISCS, blank = True)
-    languages = models.ManyToManyField(Language, verbose_name = 'Idiomas')
-    extension = models.ForeignKey(Extension, verbose_name = 'Formato de Archivo', on_delete = models.CASCADE)
+    languages = models.ManyToManyField(Language, verbose_name = 'Idiomas', blank=True)
+    extension = models.ForeignKey(Extension, verbose_name = 'Formato de Archivo', on_delete = models.CASCADE, blank=True)
 
     # Screenshots
-    screen_one = models.ImageField(verbose_name = 'Captura 1', upload_to = 'retrogames/screens')
-    screen_two = models.ImageField(verbose_name = 'Captura 2', upload_to = 'retrogames/screens')
-    screen_three = models.ImageField(verbose_name = 'Captura 3', upload_to = 'retrogames/screens')
-    screen_four = models.ImageField(verbose_name = 'Captura 4', upload_to = 'retrogames/screens')
+    screen_one = models.ImageField(verbose_name = 'Captura 1', upload_to = 'retrogames/screens', blank=True)
+    screen_two = models.ImageField(verbose_name = 'Captura 2', upload_to = 'retrogames/screens', blank=True)
+    screen_three = models.ImageField(verbose_name = 'Captura 3', upload_to = 'retrogames/screens', blank=True)
+    screen_four = models.ImageField(verbose_name = 'Captura 4', upload_to = 'retrogames/screens', blank=True)
 
     # Download:
     as_downloaded = models.BooleanField(verbose_name = 'Subido', default = False)

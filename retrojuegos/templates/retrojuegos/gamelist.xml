@@ -2,14 +2,14 @@
 <gameList>
     <game>
         <path>./Advanced VG (J).cue</path>
-        <name>Advanced Variable Geo</name>
-        <desc>Versi&oacute;n mejorada del primer V.G., con varios personajes nuevos y, por fin, un argumento. Los gr&aacute;ficos y especialmente la m&uacute;sica (espectacular puesto que est&aacute; en formato CD) fueron notablemente mejorados.</desc>
-        <image>./covers/avgssc_gntsPH1.jpg</image>
+        <name>Advanced V.G.</name>
+        <desc>Versi&oacute;n&nbsp;mejorada del primer V.G., con varios personajes nuevos y, por fin, un argumento. Los gr&aacute;ficos y especialmente la m&uacute;sica (espectacular puesto que est&aacute;; en formato CD) fueron notablemente mejorados.</desc>
+        <image>./covers/avgssc.jpg</image>
         <video>./videosnaps/Advanced_V.G._Japan.mp4</video>
         <marquee>./logo/advancedvglogo.gif</marquee>
         <thumbnail>./logo/advancedvglogo.gif</thumbnail>
         <rating>0</rating>
-        <releasedate>19950327T000000</releasedate>
+        <releasedate>19970314T000000</releasedate>
         <developer>TGL</developer>
         <publisher>Giga</publisher>
         <genre>Lucha</genre>
@@ -22,10 +22,10 @@
         <name>Alien Trilogy</name>
         <desc>En el papel de la teniente Ellen Ripley, el jugador experimenta una historia vagamente ambientada de las tres primeras pel&iacute;culas de la franquicia Alien.
 
-La historia se cuenta a trav&eacute;s de informes de misi&oacute;n basados en una pantalla inicial de texto que gu&iacute;a al jugador a trav&eacute;s de una historia extendida y orientada a la acci&oacute;n, bas&aacute;ndose m&aacute;s en una adaptaci&oacute;n a videojuego y a los personajes de la franquicia en lugar de ser una adaptaci&oacute;n fiel hacia las pel&iacute;culas.
+La historia se cuenta a trav&amp;eacute;s de informes de misiones&nbsp;basados en una pantalla inicial de texto que gu&iacute;a al jugador a trav&eacute;s de una historia extendida y orientada a la acci&oacute;n, bas&aacute;ndose mas en una adaptaci&oacute;n&nbsp;a videojuego y a los personajes de la franquicia en lugar de ser una adaptaci&oacute;n fiel a las pel&iacute;culas
 
-El videojuego comienza con una introducci&oacute;n en CGI, en la que Ripley junto con un grupo de Marines (visualmente parecidos a los de la pel&iacute;cula Aliens: El regreso) van en una nave con direcci&oacute;n a LV-426 para restaurar la comunicaci&oacute;n con la colonia presente, donde ser&aacute; el inicio de la acci&oacute;n de la historia.</desc>
-        <image>./covers/alien-trilogy_1mZbGcm.png</image>
+El videojuego comienza con una introducci&oacute;n en CGI, en la que Ripley junto con un grupo de Marines (visualmente parecidos a los de la pel&iacute;culas Aliens: El regreso) van en una nave con direcci&oacute;n a LV-426 para restaurar la comunicaci&oacute;n con la colonia presente, donde ser&aacute; el inicio de la acci&oacute;n de la historia.</desc>
+        <image>./covers/alien-trilogy.png</image>
         <video>./videosnaps/Alien_Trilogy_Europe_EnFrEsIt.mp4</video>
         <marquee>./logo/alien-trilogy-logo.png</marquee>
         <thumbnail>./logo/alien-trilogy-logo.png</thumbnail>
@@ -43,14 +43,12 @@ El videojuego comienza con una introducci&oacute;n en CGI, en la que Ripley junt
         <name>Astra Superstars</name>
         <desc>El objetivo del juego de lucha basado en el aire es noquear al oponente en dos de las tres rondas (excepto la pelea final de un solo jefe). Hay dos modos en la versi&oacute;n original de arcade: &quot;Modo historia&quot; (solo 1P) o &quot;1P VS. 2P&quot;.
 
-En el &quot;Modo historia&quot;, al comienzo de cada batalla, el jugador debe conversar con el oponente seleccionando una de las tres oraciones. Dependiendo de la oraci&oacute;n seleccionada, el oponente controlado por la CPU se &quot;calienta&quot; (se vuelve dif&iacute;cil), &quot;se enfr&iacute;a&quot; (se vuelve f&aacute;cil) o se mantiene neutral antes de pelear (sin cambio de dificultad). Dependiendo de lo que se diga, el jugador puede encontrarse con el Diablo (basado en el mal juicio del personaje) o el &Aacute;ngel (basado en el buen juicio del personaje) para luchar antes que el jefe final, aunque el &Aacute;ngel requiere que el jugador juzgue bien a su oponente no tener hipo, o de lo contrario el Diablo aparecer&aacute; inevitablemente, en caso de que una sola opci&oacute;n sea mala.
+En el &quot;Modo historia&quot;,&nbsp;al comienzo de cada batalla, el jugador debe conversar con el oponente seleccionando una de las tres oraciones. Dependiendo de la oraci&oacute;n&nbsp;seleccionada, el oponente controlado por la CPU se calienta&nbsp;(se vuelve dif&iacute;cil), se enfr&iacute;a (se vuelve f&aacute;cil) o se mantiene neutral antes de pelear (sin cambio de dificultad). Dependiendo de lo que se diga, el jugador puede encontrarse con el Diablo (basado en el mal juicio del personaje) o el &Aacute;ngel (basado en el buen juicio del personaje) para luchar antes que el jefe final, aunque el &Aacute;ngel requiere que el jugador juzgue bien a su oponente no tener hipo, o de lo contrario el Diablo aparecer&aacute;; inevitablemente, en caso de que una sola opci&oacute;n sea mala.
 
-Los jugadores controlan con un joystick de 8 v&iacute;as y seis botones, similar a una de las dos versiones de gabinete arcade del Street Fighter de 1987 y su secuela Street Fighter II .
+Los jugadores controlan con un joystick de 8 volantes y seis botones, similar a una de las dos versiones de gabinete arcade del Street Fighter de 1987 y su secuela Street Fighter II .
 
-Sin embargo, los seis movimientos b&aacute;sicos funcionan de manera diferente en comparaci&oacute;n con los dise&ntilde;os t&iacute;picos de seis botones. Los dos botones de ataque pesado generalmente env&iacute;an al oponente volando a trav&eacute;s del escenario; sin embargo, a veces el oponente puede rebotar desde el costado de la pantalla.
-
-Dependiendo de qu&eacute; tan agresivamente se realicen los combos, a veces el oponente rebota de un lado a otro de la pantalla como en el pinball.(como lo indica el juego). El personaje del jugador puede moverse brevemente por debajo o por encima de la pantalla, que se puede utilizar para esquivar ataques o perseguir oponentes por encima o por debajo de la pantalla. Las barras de energ&iacute;a debajo de la pantalla son barras &quot;Star Rank&quot;, que se utilizan para llenar la energ&iacute;a suficiente para realizar uno de los dos movimientos de desesperaci&oacute;n por personaje jugable llamado &quot;Star Specials&quot;.</desc>
-        <image>./covers/astra-superstars_HW6Qwat.jpg</image>
+A diferencia de la mayor&iacute;a de los juegos de lucha,&nbsp;<em>Astra Superstars</em>&nbsp;presenta los movimientos b&aacute;sicos peque&ntilde;os y los grandes movimientos especiales de estrellas, pero no movimientos especiales de tama&ntilde;o mediano.&nbsp;El jugador puede invocar un escudo alrededor del personaje.&nbsp;Si el jugador ataca constantemente a un oponente que est&aacute; vigilando, el guardia se rompe, haciendo que el oponente no pueda moverse brevemente.&nbsp;Cuando est&aacute; al lado del oponente, el jugador puede &quot;volverse atr&aacute;s&quot; del oponente.&nbsp;Si el jugador noquea al oponente por segunda vez, ya sea con uno de los dos movimientos b&aacute;sicos de botones pesados ​​o con un Star Special, el oponente saldr&aacute; de la pantalla.&nbsp;Si el jugador ataca agresivamente y KOs al oponente mareado, se convierte en un KO &quot;Doctor Down&quot;.&nbsp;Al igual que en&nbsp;<a href="https://en.wikipedia.org/wiki/Data_East" style="text-decoration:none; color:#0b0080; background:none #ffffff; font-family:sans-serif; font-size:14px; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; font-weight:400; letter-spacing:normal; orphans:2; text-align:start; text-indent:0px; text-transform:none; white-space:normal; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px" title="Data East">Data East</a>&nbsp;&#39;s&nbsp;<a class="mw-redirect" href="https://en.wikipedia.org/wiki/1984_in_video_gaming" style="text-decoration:none; color:#0b0080; background:none #ffffff; font-family:sans-serif; font-size:14px; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; font-weight:400; letter-spacing:normal; orphans:2; text-align:start; text-indent:0px; text-transform:none; white-space:normal; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px" title="1984 en videojuegos">1984&nbsp;</a><em><a href="https://en.wikipedia.org/wiki/Karate_Champ" style="text-decoration:none; color:#0b0080; background:none" title="Campeón de karate">Karate Champ</a></em>arcade, cuando se acabe el tiempo, el juez determinar&aacute; qui&eacute;n pele&oacute; mejor.&nbsp;Dependiendo de c&oacute;mo el jugador u oponente gane una ronda, el ganador tendr&aacute; una cierta letra colocada debajo de su barra de vida.&nbsp;La &quot;V&quot; significa que el ganador KOED al oponente con un movimiento b&aacute;sico, la &quot;S&quot; significa que el ganador KO&#39;d al oponente con un Star Special, la &quot;D&quot; significa que el ganador KO agresivamente al oponente mareado, y &quot;J&quot; significa que el ganador fue elegido por el juez.</desc>
+        <image>./covers/astra-superstars.jpg</image>
         <video>./videosnaps/Astra_Superstars_Japan.mp4</video>
         <marquee>./logo/Astra-Superstars-Logo.png</marquee>
         <thumbnail>./logo/Astra-Superstars-Logo.png</thumbnail>
@@ -65,18 +63,18 @@ Dependiendo de qu&eacute; tan agresivamente se realicen los combos, a veces el o
     </game>
     <game>
         <path>./Asuka 120pct Burning Fest Limited (JAP).cue</path>
-        <name>Asuka 120% Limited Burning Fest.</name>
-        <desc>El juego se desarrolla en la Escuela Privada de Ryooran para Mujeres que educa a las hijas de los niveles superiores de la sociedad. Los clubes de la escuela realizan anualmente un torneo de artes marciales llamado Concurso de Presupuesto de Rivalidad de Clubes.
+        <name>Asuka 120% Limited: Burning Fest. Limited</name>
+        <desc>El juego se desarrolla en la Escuela Privada de Ryōran para Mujeres que educa a las hijas de los niveles superiores de la sociedad. Los clubes de la escuela realizan anualmente un torneo de artes marciales llamado Concurso de Presupuesto de Rivalidad de Clubes Mega Fight.
 
-El personaje principal es Asuka Honda del Club de Qu&iacute;mica . Otros personajes incluyen miembros del club de tenis , el club de voleibol , el club de animadores y el club de karate . Cada personaje emplea un estilo de lucha diferente y las t&eacute;cnicas son &uacute;nicas para cada club.</desc>
-        <image>./covers/asuka-120-limited-burning-fest-limited_Wgp1Plk.jpeg</image>
+El personaje principal es Asuka Honda del Club de Qu&iacute;mica . Otros personajes incluyen miembros del club de tenis , el club de voleibol , el club Cheer Leading y el club Karate . Cada personaje emplea un estilo de lucha diferente y las t&eacute;cnicas son &uacute;nicas para cada club.</desc>
+        <image>./covers/asuka-120-limited-burning-fest-limited.jpeg</image>
         <video>./videosnaps/Asuka_120_Limited_-_Burning_Fest._Limited_Japan_Hack_Translated_En.mp4</video>
         <marquee>./logo/asuka120logo.gif</marquee>
         <thumbnail>./logo/asuka120logo.gif</thumbnail>
         <rating>0</rating>
         <releasedate>19971009T000000</releasedate>
         <developer>Success</developer>
-        <publisher>Family Soft</publisher>
+        <publisher>Kodansha Publishers, Ltd.</publisher>
         <genre>Lucha</genre>
         <players>2</players>
         <playcount>0</playcount>
@@ -84,556 +82,18 @@ El personaje principal es Asuka Honda del Club de Qu&iacute;mica . Otros persona
     </game>
     <game>
         <path>./Batman Forever The Arcade Game (Saturn) (E).cue</path>
-        <name>Batman Forever</name>
-        <desc>Tomando el papel de Batman o Robin, los jugadores golpearan, patearan, y usaran combinaciones especiales de ataques para derrotar a las olas de enemigos que atacan.
-
-Las combinaciones especiales aplicadas a enemigos pueden sumar hasta m&aacute;s de 150 golpes posibles en un villano individual. Las armas especiales como las Batarangs pueden ser encontradas a lo largo de los niveles.&nbsp;<em>Batman Forever: The Arcade Game</em>&nbsp;es seccionado en etapas, y despu&eacute;s avanza a trav&eacute;s de cada etapa de enemigos, recogiendo power-ups en el camino, los jugadores deben confrontarse contra un personaje jefe.</desc>
+        <name>Batman Forever: The Arcade Game</name>
+        <desc><em><strong>Batman Forever: The Arcade Game</strong></em>&nbsp;es un videojuego basado en la pel&iacute;cula del mismo nombre. Dos Caras y sus secuaces, junto con el Acertijo, est&aacute;n causando un sinf&iacute;n de problemas para la Ciudad G&oacute;tica. Una vez m&aacute;s, depende del d&uacute;o din&aacute;mico: Batman y Robin lanzar una llave inglesa en su confabulaci&oacute;n.</desc>
         <image>./covers/batman-forever-the-arcade-game.png</image>
         <video>./videosnaps/Batman_Forever_-_The_Arcade_Game_Europe.mp4</video>
         <marquee>./logo/batman-forever-logo.png</marquee>
         <thumbnail>./logo/batman-forever-logo.png</thumbnail>
         <rating>0</rating>
-        <releasedate>19960101T000000</releasedate>
+        <releasedate>19970101T000000</releasedate>
         <developer>Iguana Entertainment</developer>
         <publisher>Acclaim Entertainment</publisher>
         <genre>Beat 'em Up</genre>
         <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Batsugun (1996)(Banpresto)(JP).img</path>
-        <name>Batsugun</name>
-        <desc>El resumen de la trama de Batsugun se explica a trav&eacute;s de materiales complementarios.
-
-En un planeta distante similar a la Tierra, se pone en marcha una toma de control global con el nombre en clave del Plan Epsilon dirigido por el rey Renoselva A. Gladebar&aacute;n VII, con el Ej&eacute;rcito Imperial realizando exitosamente m&uacute;ltiples golpes de estado d&#39;&eacute;tats sobre pa&iacute;ses del planeta en menos de dos semanas.
-
-Todo lo que se interpone entre las fuerzas militares de Renoselva y la dominaci&oacute;n mundial son los Skull Hornets: un escuadr&oacute;n de pilotos de combate liderados por el pr&iacute;ncipe Olisis R. Gladebar&aacute;n VIII, hijo de Renoselva. Los Skull Hornets utilizan los jets sumergibles m&aacute;s poderosos que los cient&iacute;ficos del planeta han ideado.</desc>
-        <image>./covers/batsugun.png</image>
-        <video>./videosnaps/Batsugun_Japan.mp4</video>
-        <marquee>./logo/batsugun-logo.png</marquee>
-        <thumbnail>./logo/batsugun-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19961025T000000</releasedate>
-        <developer>Toaplan</developer>
-        <publisher>Banpresto</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Battle Arena Toshinden Remix (U).cue</path>
-        <name>Battle Arena Toshinden Remix</name>
-        <desc>Ocho guerreros errantes, provenientes de distintos rincones del mundo, se dan cita en un misterioso torneo de lucha llamado&nbsp;<em>Battle Arena Toshinden</em>, organizado por una oscura organizaci&oacute;n llamada&nbsp;<em>Secret Society</em>. Cada luchador tiene sus razones personales para participar en el torneo, pero todos buscar lo mismo: proclamarse vencedores.</desc>
-        <image>./covers/toshinden.png</image>
-        <video>./videosnaps/Battle_Arena_Toshinden_URA_-_Ultimate_Revenge_Attack_Europe.mp4</video>
-        <marquee>./logo/toshinden-logo.png</marquee>
-        <thumbnail>./logo/toshinden-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19951124T000000</releasedate>
-        <developer>Tamsoft</developer>
-        <publisher>Takara</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Battle Garegga (J).mdf</path>
-        <name>Battle Garegga</name>
-        <desc>Mathew Wayne, un residente de una peque&ntilde;a ciudad rural, era un genio mec&aacute;nico cuya aptitud y habilidades se transmitieron a sus hijos, Brian y Jason.
-
-Despu&eacute;s de obtener el liderazgo de su f&aacute;brica de autom&oacute;viles , las habilidades de los hermanos se hicieron famosas en todo el pa&iacute;s. Finalmente, la Federaci&oacute;n se acerc&oacute; a los hermanos con un contrato extremadamente rentable para ayudar a producir veh&iacute;culos militares para &eacute;l. Los hermanos Wayne aceptaron el contrato y crearon armas sin igual.
-
-Poco tiempo despu&eacute;s, los cielos se oscurecieron con la flota a&eacute;rea invasora de la Federaci&oacute;n, y pueblos y ciudades de todas partes fueron devastados por estos ej&eacute;rcitos, incluida la ciudad natal de Brian y Jason. Para su horror, la Federaci&oacute;n estaba usando las armas y veh&iacute;culos que ellos mismos hab&iacute;an dise&ntilde;ado para remodelar la tierra a su despiadada voluntad.
-
-Tomando aviones cuyos dise&ntilde;os nunca se hab&iacute;an presentado a la Federaci&oacute;n, los hermanos Wayne se preparan para destruir el loco plan de la Federaci&oacute;n. Son ayudados por los cuatro h&eacute;roes de Mahou Daisakusen .</desc>
-        <image>./covers/battle-garegga.png</image>
-        <video>./videosnaps/Battle_Garegga_Japan.mp4</video>
-        <marquee>./logo/battle-garegga-logo.gif</marquee>
-        <thumbnail>./logo/battle-garegga-logo.gif</thumbnail>
-        <rating>0</rating>
-        <releasedate>19980226T000000</releasedate>
-        <developer>Raizing</developer>
-        <publisher>Eighting</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Burning Rangers.cue</path>
-        <name>Burning Rangers</name>
-        <desc>Burning Rangers tiene lugar en una Tierra futurista donde la &uacute;nica amenaza para la vida humana son los incendios.&nbsp;
-
-Con este fin, un equipo de bomberos altamente especializados llamado Burning Rangers es enviado a incidentes de emergencia para combatir incendios y rescatar a personas en peligro.&nbsp;
-
-El jugador tiene la opci&oacute;n de elegir dos personajes jugables para jugar;&nbsp;Shou Amabane o Tillis.&nbsp;El personaje seleccionado se lleva primero a trav&eacute;s de una etapa de tutorial donde se les presenta a los otros miembros del equipo, Chris Parton, Reed Phoenix, Big Landman y el personaje jugable no seleccionado, antes de ser llevado a misiones.&nbsp;
-
-Durante la misi&oacute;n final, los Rangers son presentados a Ilia Klein, una ni&ntilde;a colocada en animaci&oacute;n suspendida y enviada al espacio despu&eacute;s de contraer una enfermedad incurable.&nbsp;
-
-Ilia informa a los Rangers que su nave se estrellar&aacute; contra la Tierra causando una devastaci&oacute;n completa,&nbsp;entonces los Rangers idean un plan para detener el barco y rescatar a Ilia.&nbsp;En las escenas finales de cr&eacute;dito, se revela que Shou y Tillis se convierten en Rangers de pleno derecho, e Ilia se cura de su enfermedad y se instala en su nueva vida en la Tierra como miembro de los Burning Rangers.</desc>
-        <image>./covers/burning-rangers_QlmHR2i.png</image>
-        <video>./videosnaps/Burning_Rangers_USA.mp4</video>
-        <marquee>./logo/burning-rangers-logo.png</marquee>
-        <thumbnail>./logo/burning-rangers-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19980226T000000</releasedate>
-        <developer>Sonic Team</developer>
-        <publisher>Sega</publisher>
-        <genre>Shooter</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Clockwork Knight 2 (E).cue</path>
-        <name>Clockwork Knight 2</name>
-        <desc>Clockwork Knight 2 recoge inmediatamente en el cliffhanger dejado por Clockwork Knight . Chelsea est&aacute; sano y salvo, pero no se despertar&aacute;. Como los juguetes que no est&aacute;n bajo el hechizo reflexionan sobre qu&eacute; hacer, Chelsea de repente es secuestrada nuevamente. Por lo tanto, Pepper nuevamente se propone rescatarla...</desc>
-        <image>./covers/clockwork-knight-pepperouchou-no-daibouken-gekkan.png</image>
-        <video>./videosnaps/Clockwork_Knight_2_USA.mp4</video>
-        <marquee>./logo/clockwork-knight-2-logo.png</marquee>
-        <thumbnail>./logo/clockwork-knight-2-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19951215T000000</releasedate>
-        <developer>Sega</developer>
-        <publisher>Sega</publisher>
-        <genre>Plataformas</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Cotton 2 (J).cue</path>
-        <name>Cotton 2: Magical Night Dreams</name>
-        <desc>Los juegos de la serie Cotton siguen a una joven bruja llamada Cotton que tiene una incorporaci&oacute;n a Willow.
-
-La acompa&ntilde;a el hada Seda. Cada juego de Cotton presenta una historia &uacute;nica que est&aacute; conectada libremente con los otros juegos de la serie. Todas estas historias giran en torno a la obsesi&oacute;n de una joven bruja alemana llamada Nata de Cotton con un tipo m&aacute;gico de dulce llamado &quot;Willow&quot;.
-
-Cotton es una preadolescente pelirrojaBruja alemana con hambre de dulces Willow que impulsa todas sus acciones. Ella es impetuosa, inmadura y, a menudo, reacciona exageradamente. Aunque sus misiones en cada juego tienen como objetivo final un prop&oacute;sito superior, ella nunca se involucra personalmente por ning&uacute;n motivo que no sea la posibilidad de comer un sauce.
-
-En un juego t&iacute;pico de Cotton, Cotton se embarcar&aacute; en su viaje a trav&eacute;s de las etapas del juego con la esperanza de que al final sea recompensada con un Willow. Sin embargo, cuando termina el juego, casi siempre termina con las manos vac&iacute;as. Cotton est&aacute; acompa&ntilde;ado por Silk, un hada que est&aacute; en todos los juegos de Cotton hasta la fecha como una especie de compinche para Cotton. Ella es ciudadana del reino de las hadas Filament, y es una ayuda cercana a su reina. Historia de la serie</desc>
-        <image>./covers/cotton-2.png</image>
-        <video>./videosnaps/Cotton_2_Japan.mp4</video>
-        <marquee>./logo/cotton-2-logo.png</marquee>
-        <thumbnail>./logo/cotton-2-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19971204T000000</releasedate>
-        <developer>Success</developer>
-        <publisher>Success</publisher>
-        <genre>Shooter</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Cube Battler Story of Anna (J).cue</path>
-        <name>Cube Battler: Story of Anna</name>
-        <desc>Introducci&oacute;n bien animada en ese estilo loco de Ranma establece la historia de Anna para la acci&oacute;n de rompecabezas basada en cubos 3D.&nbsp;Los cubos tienen una imagen sobre ellos que debe rotarse cuando sea necesario para completar la imagen completa antes que tu oponente.&nbsp;Muy agradable.</desc>
-        <image>./covers/cube-battler-story-anna.png</image>
-        <video>./videosnaps/Cube_Battler_-_Anna_Mirai_Hen_Japan.mp4</video>
-        <marquee>./logo/cube-battler-anna-logo.png</marquee>
-        <thumbnail>./logo/cube-battler-anna-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970228T000000</releasedate>
-        <developer>Yanoman</developer>
-        <publisher>Yanoman</publisher>
-        <genre>Puzzles</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Cyberbots Full Metal Madness (J).cue</path>
-        <name>Cyberbots: Fullmetal Madness</name>
-        <desc>En el juego, el jugador primero elige el piloto y luego el mecha (Valiant / Variant Armor o VA para abreviar) que usar&aacute;n para luchar. Los mechas determinan la jugabilidad del juego, pero el piloto es lo que determina la historia que ver&aacute; el jugador.
-
-Cerca del final del siglo XXI, la Tierra comienza a sobrepoblarse, lo que lleva a muchas personas que viven en colonias espaciales creadas por el hombre. El ej&eacute;rcito primario de la Tierra, &quot;Earth Force&quot;, ha estado realizando experimentos y su trabajo, junto con las acciones de los personajes jugables determinar&aacute;n el futuro de la Tierra.</desc>
-        <image>./covers/cyberbots-fullmetal-madness.png</image>
-        <video>./videosnaps/Cyberbots_-_Full_Metal_Madness_Japan.mp4</video>
-        <marquee>./logo/cyberbots-logo.png</marquee>
-        <thumbnail>./logo/cyberbots-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970328T000000</releasedate>
-        <developer>Capcom</developer>
-        <publisher>Capcom</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./D-Xhird (1997)(Takara)(JP).img</path>
-        <name>D-Xhird</name>
-        <desc>Los jugadores eligen a su luchador y luchan a trav&eacute;s del elenco al estilo de los juegos de lucha comunes.&nbsp;Los jugadores pueden atacar usando los botones de hombro de Saturno, as&iacute; como realizar ataques con el comando de ataque como agarrar y movimientos especiales.&nbsp;Dependiendo del oponente, la arena consistir&aacute; en un anillo o una jaula.&nbsp;
-
-Los jugadores (y los oponentes tambi&eacute;n) tienen la capacidad de evitar caerse del ring presionando el bot&oacute;n de salto justo cuando est&aacute;n a punto de caerse.&nbsp;Tanto los jugadores como los enemigos tambi&eacute;n pueden usar las paredes de una arena enjaulada para infligir da&ntilde;o adicional a un oponente al golpearlos contra las paredes de la jaula.</desc>
-        <image>./covers/d-xhird.png</image>
-        <video>./videosnaps/D-Xhird_Japan_2M.mp4</video>
-        <marquee>./logo/d-xhird-logo.png</marquee>
-        <thumbnail>./logo/d-xhird-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970530T000000</releasedate>
-        <developer>Nextech</developer>
-        <publisher>Takara</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Darius Gaiden (U).cue</path>
-        <name>Darius Gaiden</name>
-        <desc>Poco tiempo despu&eacute;s de los eventos de Darius, Proco y Tiat empieza a buscar refugio fuera del planeta Darius escapando de la destrucci&oacute;n tras los ataques de Belsar. Los dos encontraron un nuevo planeta, Vadis.
-
-De repente, Belsar intenta destruir el puerto estelar de Darius, cuando los darianos intentaban escapar. El resto de los darianos fueron eliminados, y Belsar fija curso a Vadis. Proco y Tiat ordena a los soldados a usar sus Silver Hawks, pero fueron destruidos con facilidad. Proco y Tiat deben enfrentarse de nuevo a Belsar debido a la muerte de los soldados darianos.</desc>
-        <image>./covers/darius-gaiden.png</image>
-        <video>./videosnaps/Darius_Gaiden_Europe.mp4</video>
-        <marquee>./logo/darius-gaiden-logo.png</marquee>
-        <thumbnail>./logo/darius-gaiden-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19951215T000000</releasedate>
-        <developer>Taito</developer>
-        <publisher>Taito</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Darius II (E).cue</path>
-        <name>Darius II</name>
-        <desc>La flota alien&iacute;gena Belsar, compuesta por robots y naves con forma de peces y otras criaturas marinas, perdieron el control de Darius. Tras los enfrentamientos ocurridos en Darius Gaiden, los colonos, ordenados por los expilotos Proco y Tiat, escaparon al planeta Olga durante la invasi&oacute;n Belsar, pero ahora recolonizan Darius y reconstruyen sus zonas da&ntilde;adas, pero Belsar intenta invadir la v&iacute;a l&aacute;ctea. Los dos pilotos Proco Jr. y Tiat Young reciben el llamado de emergencia desde la Tierra y se dirigen a la v&iacute;a l&aacute;ctea.</desc>
-        <image>./covers/darius-ii.png.pagespeed.ic.S5jDa5Z0hM_Us38jHU.png</image>
-        <video>./videosnaps/Darius_II_Europe.mp4</video>
-        <marquee>./logo/darius-2-logo.gif</marquee>
-        <thumbnail>./logo/darius-2-logo.gif</thumbnail>
-        <rating>0</rating>
-        <releasedate>19960607T000000</releasedate>
-        <developer>Taito</developer>
-        <publisher>Taito</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Dark Legend (U).cue</path>
-        <name>Dark Legend</name>
-        <desc>Durante generaciones, la gente ha cre&iacute;do en el mito chino conocido como la Leyenda Oscura. Ocurre en alg&uacute;n momento del siglo XI o XII cuando China se sumerge en un estado de anarqu&iacute;a total , cuando los se&ntilde;ores de la guerra, hambrientos de poder, se rebelan contra el gobierno central.
-
-Para recuperar el control de su imperio, el emperador dise&ntilde;a un plan astuto. Se prepara para la conquista definitiva para sus rivales m&aacute;s ambiciosos, un desaf&iacute;o que ning&uacute;n se&ntilde;or de la guerra puede resistir ya que las recompensas son inimaginables.
-
-El vencedor estar&aacute; dotado de habilidades incre&iacute;bles y poseer&aacute; el m&aacute;ximo poder, sin mencionar la riqueza ilimitada. El triunfo es absoluto ya que la derrota significa la muerte. Miles de valientes guerreros luchan entre ellos con habilidades especiales de lucha.</desc>
-        <image>./covers/suiko-enbu-outlaws-of-the-lost-dynasty.png</image>
-        <video>./videosnaps/Dark_Legend_USA.mp4</video>
-        <marquee>./logo/dark-legend-logo.png</marquee>
-        <thumbnail>./logo/dark-legend-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19950811T000000</releasedate>
-        <developer>Data East</developer>
-        <publisher>Data East</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Daytona USA (USA).cue</path>
-        <name>Daytona USA</name>
-        <desc>El jugador compite usando un autom&oacute;vil de serie (similar a los mostrados en NASCAR), solo contando con tres circuitos para elegir, as&iacute; como puede optar por transmisi&oacute;n autom&aacute;tica o manual. Para dificultar las cosas, Daytona USA tiene l&iacute;mite de tiempo, en donde si no cruza el punto de control o la l&iacute;nea de meta antes de que se acabe el tiempo, acaba la partida.
-
-&nbsp;</desc>
-        <image>./covers/daytona-usa.png</image>
-        <video>./videosnaps/Daytona_USA_Europe_1S.mp4</video>
-        <marquee>./logo/daytona-usa-logo.png</marquee>
-        <thumbnail>./logo/daytona-usa-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19950511T000000</releasedate>
-        <developer>Sega-AM2</developer>
-        <publisher>Sega</publisher>
-        <genre>Conducción</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Dead or Alive (J).mdf</path>
-        <name>Dead or Alive</name>
-        <desc>Una Kunoichi fugitiva conocida como Kasumi entra en el torneo Dead or Alive para vengarse de su t&iacute;o Raidou, quien fue responsable de paralizar a su hermano Hayate.
-
-Kasumi finalmente derrota y mata a Raidou, pero su decisi&oacute;n de abandonar la aldea viola las estrictas leyes de la sociedad ninja, y como resultado se convierte en una fugitiva perseguida.</desc>
-        <image>./covers/dead-or-alive.png</image>
-        <video>./videosnaps/Dead_or_Alive_Japan_2M.mp4</video>
-        <marquee>./logo/dead-or-alive-logo.png</marquee>
-        <thumbnail>./logo/dead-or-alive-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19971009T000000</releasedate>
-        <developer>Team Ninja</developer>
-        <publisher>Tecmo</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Deep Fear (Europe) (Disc 1).cue</path>
-        <name>Deep Fear</name>
-        <desc>En parte inspirado por las pel&iacute;culas Leviathan y The Abyss, Deep Fear toma lugar 300 metros bajo el Oc&eacute;ano Pac&iacute;fico en un abastecimiento de combustible y centro de investigaci&oacute;n conocido como Big Table (SSB-01).
-
-Los jugadores asumen el papel de John Mayor, un ex-SEAL que renunci&oacute; y se uni&oacute; a un grupo de rescate civil conocido como ERS (Emergency Rescue Serivces). El ERS es una de las muchas corporaciones civiles que, de acuerdo a la historia de Big Table, se le ofreci&oacute; espacio en las instalaciones con el fin de ayudar a la Armada en un recorte presupuestario grave.
-
-Un peque&ntilde;o OVNI desciende desde el espacio y aterriza cerca de Big Table. Sea Fox, un submarino considerablemente peque&ntilde;o pero r&aacute;pido, lo env&iacute;an para recoger el objeto y abastecerse de combustible en Big Table.
-
-Poco despu&eacute;s de la recarga de combustible, el Sea Fox se estrella en una porci&oacute;n de la base conocida como el &Aacute;rea de la Marina, que sirve como la base de combustible y la base de instalaci&oacute;n de alto secreto. Descuidando el alto nivel de seguridad de la zona marina, el comandante de la base llama al equipo SEAL como un rescate primario, pero env&iacute;a el ERS al &aacute;rea as&iacute; pueden extraer un m&eacute;dico importante y reconectar el &aacute;rea a la base.
-
-A partir de aqu&iacute;, la presencia de mutantes hostiles causan problemas en la base mientras los seres humanos-vivos o muertos-comienzan a transformarse en grotescas criaturas que se alimentan por un objetivo: matar.</desc>
-        <image>./covers/deep-fear_U6hLhcd.png</image>
-        <video>./videosnaps/Deep_Fear_Europe_Disc_1.mp4</video>
-        <marquee>./logo/deep-fear-logo.png</marquee>
-        <thumbnail>./logo/deep-fear-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19980716T000000</releasedate>
-        <developer>Sega</developer>
-        <publisher>Sega</publisher>
-        <genre>Survival Horror</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Deep Fear (Europe) (Disc 2).cue</path>
-        <name>Deep Fear CD2</name>
-        <desc>En parte inspirado por las pel&iacute;culas Leviathan y The Abyss, Deep Fear toma lugar 300 metros bajo el Oc&eacute;ano Pac&iacute;fico en un abastecimiento de combustible y centro de investigaci&oacute;n conocido como Big Table (SSB-01).
-
-Los jugadores asumen el papel de John Mayor, un ex-SEAL que renunci&oacute; y se uni&oacute; a un grupo de rescate civil conocido como ERS (Emergency Rescue Serivces). El ERS es una de las muchas corporaciones civiles que, de acuerdo a la historia de Big Table, se le ofreci&oacute; espacio en las instalaciones con el fin de ayudar a la Armada en un recorte presupuestario grave.
-
-Un peque&ntilde;o OVNI desciende desde el espacio y aterriza cerca de Big Table. Sea Fox, un submarino considerablemente peque&ntilde;o pero r&aacute;pido, lo env&iacute;an para recoger el objeto y abastecerse de combustible en Big Table.
-
-Poco despu&eacute;s de la recarga de combustible, el Sea Fox se estrella en una porci&oacute;n de la base conocida como el &Aacute;rea de la Marina, que sirve como la base de combustible y la base de instalaci&oacute;n de alto secreto. Descuidando el alto nivel de seguridad de la zona marina, el comandante de la base llama al equipo SEAL como un rescate primario, pero env&iacute;a el ERS al &aacute;rea as&iacute; pueden extraer un m&eacute;dico importante y reconectar el &aacute;rea a la base.
-
-A partir de aqu&iacute;, la presencia de mutantes hostiles causan problemas en la base mientras los seres humanos-vivos o muertos-comienzan a transformarse en grotescas criaturas que se alimentan por un objetivo: matar.</desc>
-        <image>./covers/deep-fear_WSVDjIy.png</image>
-        <video>./videosnaps/Deep_Fear_Europe_Disc_2.mp4</video>
-        <marquee>./logo/deep-fear-logo_mZuZwiP.png</marquee>
-        <thumbnail>./logo/deep-fear-logo_mZuZwiP.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19980716T000000</releasedate>
-        <developer>Sega</developer>
-        <publisher>Sega</publisher>
-        <genre>Survival Horror</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./die hard arcade.cue</path>
-        <name>Die Hard Arcade</name>
-        <desc>Die Hard Arcade es un juego para uno o dos jugadores, que juegan como John McClane o Kris Thompsen (Bruno Delinger y Cindy Holiday en la versi&oacute;n japonesa).
-
-Los jugadores se abren paso a trav&eacute;s de oleadas de enemigos, usando sus pu&ntilde;os, pies y una variedad de armas que se pueden recoger de los enemigos o del medio ambiente, desde art&iacute;culos dom&eacute;sticos como escobas y pimenteros hasta lanzadores de misiles de alto da&ntilde;o y armas antitanque.
-
-La mayor&iacute;a de las armas se pierden autom&aacute;ticamente al final de cada escena de acci&oacute;n, pero las pistolas de mano se pueden retener mientras les quede munici&oacute;n. La estructura de nivel t&iacute;pica es una cantidad de s&uacute;bditos que el jugador debe vencer en muchas habitaciones, seguidos de un jefe. Los eventos de tiempo r&aacute;pido se intercalan entre muchas de las escenas.
-
-Si falla un Evento de tiempo r&aacute;pido, se produce una p&eacute;rdida de salud, como es habitual para los QTE, o una escena de acci&oacute;n adicional que, de lo contrario, los jugadores no tendr&iacute;an que completar las escenas cortadas se intercalan en la acci&oacute;n
-
-La versi&oacute;n de Saturn&nbsp;tambi&eacute;n incluye un puerto del juego arcade de Sega de 1979 Deep Scan, que se puede utilizar para obtener cr&eacute;ditos adicionales.
-
-&nbsp;</desc>
-        <image>./covers/dynamite-deka_PtJBoyH.png</image>
-        <video>./videosnaps/Die_Hard_Arcade_USA_YkdLeV5.mp4</video>
-        <marquee>./logo/die-hard-arcade-logo.png</marquee>
-        <thumbnail>./logo/die-hard-arcade-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970124T000000</releasedate>
-        <developer>AM1  Sega Technical Institute</developer>
-        <publisher>Sega</publisher>
-        <genre>Beat 'em Up</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./DoDonPachi (J).mdf</path>
-        <name>DoDonPachi</name>
-        <desc>En comparaci&oacute;n con&nbsp;<em>DonPachi</em>,&nbsp;<em>DoDonPachi</em>&nbsp;es generalmente conocido por la introducci&oacute;n de nuevos elementos de juego por las mejoras o los cambios de las existentes.
-
-El fondo general del juego, a diferencia de las siguiente secuelas, permanece m&aacute;s o menos en torno a una supuesta invasi&oacute;n de una misteriosa raza de extraterrestres mecanizadas, que el jugador est&aacute; llamada a afrontar a lo largo de su recorrido. Sin embargo, los secretos m&aacute;s siniestros e impactantes se encuentran debajo de la superficie, accesible s&oacute;lo para los de mayor valent&iacute;a y habilidad para borrar todo el juego.</desc>
-        <image>./covers/dodonpachi.png</image>
-        <video>./videosnaps/DoDonPachi_Japan.mp4</video>
-        <marquee>./logo/dodonpachi.png</marquee>
-        <thumbnail>./logo/dodonpachi.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970918T000000</releasedate>
-        <developer>Cave</developer>
-        <publisher>Atlus</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Dungeons & Dragons Collection (Japan) (Disc 1) (Tower of Doom)</path>
-        <name>Dungeons & Dragons Collection</name>
-        <desc>Dungeons &amp; Dragons Collection es una compilaci&oacute;n dedos discosde los juegos arcade lanzados anteriormente Dungeons &amp; Dragons: Tower of Doom y Dungeons &amp; Dragons: Shadow over Mystara .</desc>
-        <image>./covers/dungeons-and-dragons_UcrOJrm.png</image>
-        <video>./videosnaps/Dungeons__Dragons_Collection_Japan_Disc_1.mp4</video>
-        <marquee>./logo/dungeons-and-dragons-logo.gif</marquee>
-        <thumbnail>./logo/dungeons-and-dragons-logo.gif</thumbnail>
-        <rating>0</rating>
-        <releasedate>19990304T000000</releasedate>
-        <developer>Capcom</developer>
-        <publisher>Capcom</publisher>
-        <genre>Beat 'em Up</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Dungeons & Dragons Collection (Japan) (Disc 2) (Shadow over Mystara).cue</path>
-        <name>Dungeons & Dragons Collection CD2 - Tower of Doom</name>
-        <desc>Dungeons &amp; Dragons Collection es una compilaci&oacute;n dedos discosde los juegos arcade lanzados anteriormente Dungeons &amp; Dragons: Tower of Doom y Dungeons &amp; Dragons: Shadow over Mystara .</desc>
-        <image>./covers/dungeons-and-dragons_v2EXhF3.png</image>
-        <video>./videosnaps/Dungeons__Dragons_Collection_Japan_Disc_2.mp4</video>
-        <marquee>./logo/dungeons-and-dragons-logo_rPD1dt8.gif</marquee>
-        <thumbnail>./logo/dungeons-and-dragons-logo_rPD1dt8.gif</thumbnail>
-        <rating>0</rating>
-        <releasedate>19990304T000000</releasedate>
-        <developer>Capcom</developer>
-        <publisher>Capcom</publisher>
-        <genre>Beat 'em Up</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Elevator Action Returns (J).cue</path>
-        <name>Elevator Action Returns</name>
-        <desc>Elevator Action Returns, conocido en Am&eacute;rica del Norte como Elevator Action II, es un videojuego de acci&oacute;n con scroll lateral de Taito aparecido originalmente como arcade en febrero de 1995.
-
-&nbsp;Es una secuela de videojuego de 1983 Elevator Action y funciona sobre una placa arcade Taito F3.</desc>
-        <image>./covers/elevator-action-returns.png</image>
-        <video>./videosnaps/Elevator_Action_Returns_Japan.mp4</video>
-        <marquee>./logo/elevator-action-2-logo.png</marquee>
-        <thumbnail>./logo/elevator-action-2-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19970214T000000</releasedate>
-        <developer>Taito</developer>
-        <publisher>Taito</publisher>
-        <genre>Shooter</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./EXHUMED.cue</path>
-        <name>Exhumed</name>
-        <desc>PowerSlave se encuentra dentro y alrededor de la antigua ciudad egipcia de Karnak a fines del siglo XX. La ciudad ha sido tomada por fuerzas desconocidas, con un equipo especial de crack de soldados endurecidos enviados al valle de Karnak, para descubrir la fuente de este problema. Sin embargo, en el viaje all&iacute;, el helic&oacute;ptero del jugador es derribado y el jugador apenas escapa. El jugador es enviado al valle como el h&eacute;roe para salvar a Karnak y al mundo.
-
-El jugador se encuentra luchando contra hordas de seres insectoides extraterrestres conocidos como Kilmaat, as&iacute; como sus diversos secuaces, que incluyen momias , soldados Anubis , escorpiones y esp&iacute;ritus malignos..
-
-El curso de acci&oacute;n del jugador est&aacute; dirigido por el esp&iacute;ritu del Rey Rams&eacute;s , cuya momia fue exhumada de su tumba por el Kilmaat, que busca resucitarlo y usar sus poderes para controlar el mundo.
-
-En las versiones de consola, hay dos finales, dependiendo del curso de acci&oacute;n del jugador durante el juego. En el buen final, el protagonista ha recogido ocho piezas de un dispositivo de transmisi&oacute;n de radio, por lo que puede enviar una se&ntilde;al de rescate y ser extra&iacute;do del Valle. Despu&eacute;s de reclamar la momia de Rams&eacute;s, el Fara&oacute;n le agradece por su esfuerzo y le promete al jugador que heredar&aacute; el reino terrenal de Rams&eacute;s, y que los Dioses lo bendecir&aacute;n con vida eterna y lo har&aacute;n gobernador del mundo. Despu&eacute;s de escapar de la tumba que se derrumba, el jugador es recompensado como tal y se convierte en un fara&oacute;n poderoso y benevolente de todo el planeta. En el mal final, el jugador no ha podido recoger las ocho piezas del transmisor de radio, y posteriormente es enterrado en la tumba de Ramses.</desc>
-        <image>./covers/exhumed.png</image>
-        <video>./videosnaps/Exhumed.mp4</video>
-        <marquee>./logo/exhumed.png</marquee>
-        <thumbnail>./logo/exhumed.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19960926T000000</releasedate>
-        <developer>Lobotomy Software</developer>
-        <publisher>Playmates Interactive</publisher>
-        <genre>FPS</genre>
-        <players>1</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Fighter's Megamix (U).mdf</path>
-        <name>Fighters Megamix</name>
-        <desc>El juego se caracteriza por albergar personajes de diversos juegos que aparecieron para esta o incluso diferentes plataformas. As&iacute;, entre su amplia gama de personajes encontramos conocidos de juegos como Virtua Fighter, Fighting Vipers, Virtua Cop, Daytona USA o Sonic the Fighters e incluso personajes secretos propios.
-
-El juego consiste en la realizaci&oacute;n de diversos concursos que nos ir&aacute;n desbloqueando personajes as&iacute; como diferentes modos de juego, postales, canciones o modos de batalla.</desc>
-        <image>./covers/fighters-megamix.png</image>
-        <video>./videosnaps/Fighters_Megamix_Europe.mp4</video>
-        <marquee>./logo/fighters-megamix-logo.png</marquee>
-        <thumbnail>./logo/fighters-megamix-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19961221T000000</releasedate>
-        <developer>Sega-AM2</developer>
-        <publisher>Sega</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Fighting Vipers (E).cue</path>
-        <name>Fighting Vipers</name>
-        <desc>El juego usa el mismo motor gr&aacute;fico que el Virtua Fighter 2, el juego de pelea ic&oacute;nico de Sega, por lo tanto adem&aacute;s de tener gr&aacute;ficos 3D, la jugabilidad tambi&eacute;n lo es.
-
-Lo que caracteriza a este juego son las armaduras que cada luchador posee (que se van deteriorando al paso de la pelea), y los escenarios, que son como rings delimitados por cuerdas, alambrados o paredes, los cuales tambi&eacute;n se pueden romper al finalizar un combate. El sistema de manejo es simple, usando solo 3 botones (pu&ntilde;o, patada y bloqueo), que a medida de que se va creando el combo de golpes ofrecen distintas variantes.
-
-El juego no contiene ataques superespeciales, pero contiene unos golpes m&aacute;s destructores que pueden da&ntilde;ar seriamente la armadura del oponente. Durante la lucha el luchador puede recuperarse en el aire y usar el entorno a su favor, como rebotar en los muros o treparse a los alambrados. Al final de cada round, el jugador puede expulsar a su oponente fuera del ring (incluso tirarlo al vac&iacute;o si es un ring elevado) o destruir completamente su armadura.
-
-Los modos de lucha son Arcade, Versus, Training (un modo in&eacute;dito en esa &eacute;poca) y Playback, el cual guarda repeticiones de luchas que se han guardado.</desc>
-        <image>./covers/fighting-vipers.png</image>
-        <video>./videosnaps/Fighting_Vipers_Europe.mp4</video>
-        <marquee>./logo/fighting-vipers-logo.png</marquee>
-        <thumbnail>./logo/fighting-vipers-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19960830T000000</releasedate>
-        <developer>Sega-AM2</developer>
-        <publisher>Sega</publisher>
-        <genre>Lucha</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Columns Arcade Collection (J)(Saturn).CUE</path>
-        <name>Sega Ages: Columns Arcade Collection</name>
-        <desc>El juego tiene lugar en una especie de estrecho pozo rectangular an&aacute;logo al de Tetris.
-
-Columnas compuestas por tres piezas diferentes (por ejemplo, joyas de distinto color) aparecen, una a la vez, desde la cima del pozo y caen hasta su fondo, aterrizando bien en su base o sobre otras columnas ca&iacute;das previamente.
-
-Mientras cae, el jugador puede mover la columna a izquierda y derecha, as&iacute; como rotar las posiciones de las piezas que la componen. Si tras caer una columna hay en el pozo tres o m&aacute;s piezas iguales conectadas en l&iacute;nea recta tanto horizontal, como vertical o diagonalmente, dichas piezas desaparecen; reposicion&aacute;ndose el resto de piezas por efecto de la gravedad.
-
-Si dicho reposicionamiento vuelve a provocar que tres o m&aacute;s piezas iguales vuelvan a alinearse, estas tambi&eacute;n desaparecen y el mont&oacute;n restante vuelve a recolocarse. Este proceso se repite tantas veces como sea necesario.
-
-No es raro que esto suceda tres o cuatro veces consecutivas - aunque normalmente se trata de un hecho casual provocado por un gran n&uacute;mero de piezas acumuladas en el pozo. Ocasionalmente aparece una columna especial denominada la Joya M&aacute;gica.
-
-Esta brilla en diferentes colores y, al aterrizar, destruye todas las piezas del mismo color que la que se encuentra bajo ella. Como Tetris, las columnas caen a un ritmo cada vez mayor a medida que el jugador progresa.
-
-El objetivo del juego es jugar el mayor tiempo posible antes de que el pozo se llene de piezas.</desc>
-        <image>./covers/sega-ages-columns-arcade-collection.png</image>
-        <video>./videosnaps/Sega_Ages_-_Columns_Arcade_Collection_Japan.mp4</video>
-        <marquee>./logo/columns-collection-logo.png</marquee>
-        <thumbnail>./logo/columns-collection-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19971030T000000</releasedate>
-        <developer>Sega</developer>
-        <publisher>Sega</publisher>
-        <genre>Puzzles</genre>
-        <players>2</players>
-        <playcount>0</playcount>
-        <lastplayed>20200221T115107</lastplayed>
-    </game>
-    <game>
-        <path>./Chase HQ + S.C.I. (J).cue</path>
-        <name>Taito Chase H.Q. Plus S.C.I.</name>
-        <desc>Taito Chase HQ Plus SCI&nbsp;&nbsp;es una compilaci&oacute;n de Chase HQ y su secuela Special Criminal Investigation , publicada por Taito para Sega Saturn.</desc>
-        <image>./covers/chase-hq-plus-sci.jpg</image>
-        <video>./videosnaps/Taito_Chase_H.Q.__S.C.I._Japan.mp4</video>
-        <marquee>./logo/chase-hq-sci-logo.png</marquee>
-        <thumbnail>./logo/chase-hq-sci-logo.png</thumbnail>
-        <rating>0</rating>
-        <releasedate>19960809T000000</releasedate>
-        <developer>Taito</developer>
-        <publisher>Taito</publisher>
-        <genre>Conducción</genre>
-        <players>1</players>
         <playcount>0</playcount>
         <lastplayed>20200221T115107</lastplayed>
     </game>
