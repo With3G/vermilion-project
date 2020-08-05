@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    font-family: 'Fredoka One', cursive;
+    background-color: #12100E;
+}
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+    color: #EA2B1F;
+    padding-left: 10px;
+    font-size: 45px;
+    text-shadow: 0px 5px 10px #0D0A0B;
+}
+
+.login {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[type=submit]:not(:disabled),
+button:not(:disabled).buscar,
+.btn-primary {
+    color: #EA2B1F;
+    border-color: #A31621;
+    background: #0D0A0B;
+}
+
+[type=submit]:not(:disabled):hover,
+button:not(:disabled).buscar:hover,
+.btn-primary:hover {
+    background: #A31621;
+    border-color: #A31621;
+    color: #0D0A0B;
+    box-shadow: 0px 0px 5px #0D0A0B;
+}
