@@ -51,11 +51,9 @@
                         <h5 class = "text-center">VIDEO</h5>
                         <hr>
                         <div class="text-center">
-                            {% retrojuego.video %}
-                                <video class="video-fluid z-depth-1" style="width:80%;" controls autoplay>
-                                    <source src="{{ retrojuego.video.url }}" type="video/mp4">
-                                </video>
-                            {% endif %}
+                            <video class="video-fluid z-depth-1" style="width:80%;" controls autoplay>
+                                <source src="{{ retrojuego.video.url }}" type="video/mp4">
+                            </video>
                         </div>
                         <hr>
                     {% endif %}
