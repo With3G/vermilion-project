@@ -51,9 +51,11 @@
                         <h5 class = "text-center">VIDEO</h5>
                         <hr>
                         <div class="text-center">
-                            <video class="video-fluid z-depth-1" style="width:80%;" controls autoplay>
-                                <source src="{{ retrojuego.video.url }}" type="video/mp4">
-                            </video>
+                            {% retrojuego.video %}
+                                <video class="video-fluid z-depth-1" style="width:80%;" controls autoplay>
+                                    <source src="{{ retrojuego.video.url }}" type="video/mp4">
+                                </video>
+                            {% endif %}
                         </div>
                         <hr>
                     {% endif %}
@@ -77,10 +79,14 @@
                     <p>Formato de archivo: {{retrojuego.extension}}</p>
                 </td>
                 <td>
-                    <img class = "img-fluid" src="{{retrojuego.screen_one.url}}" style="width:365px; height:275px;">
+                    {% if retrojuego.screen_one %}
+                        <img class = "img-fluid" src="{{retrojuego.screen_one.url}}" style="width:365px; height:275px;">
+                    {% endif %}
                 </td>
                 <td>
-                    <img class = "img-fluid" src="{{retrojuego.screen_two.url}}" style="width:365px; height:275px;">
+                    {% if retrojuego.screen_two %}
+                        <img class = "img-fluid" src="{{retrojuego.screen_two.url}}" style="width:365px; height:275px;">
+                    {% endif %}
                 </td>
             </tr>
             <tr>
@@ -90,14 +96,18 @@
                     <img src = "{{retrojuego.console.console_image.url}}" class = "img-fluid">
                     <br><br>
                     {% if retrojuego.download_link %}
-                    <a href="{{retrojuego.download_link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
+                        <a href="{{retrojuego.download_link}}" class="btn btn-primary btn-lg btn-block">Descargar Juego</a>
                     {% endif %}
                 </td>
                 <td>
-                    <img class = "img-fluid" src="{{retrojuego.screen_three.url}}" style="width:365px; height:275px;">
+                    {% if retrojuego.screen_three %}
+                        <img class = "img-fluid" src="{{retrojuego.screen_three.url}}" style="width:365px; height:275px;">
+                    {% endif %}
                 </td>
                 <td>
-                    <img class = "img-fluid" src="{{retrojuego.screen_four.url}}" style="width:365px; height:275px;">
+                    {% if retrojuego.screen_four %}
+                        <img class = "img-fluid" src="{{retrojuego.screen_four.url}}" style="width:365px; height:275px;">
+                    {% endif %}
                 </td>
             </tr>
         </table>
